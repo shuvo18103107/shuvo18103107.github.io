@@ -303,6 +303,7 @@ section {
       }
     }
     p {
+      text-align: justify;
       font-size: 16px;
       line-height: 25px;
       color: #504e70;
@@ -387,7 +388,7 @@ section {
       }
       .progress {
         background-color: #e3e3e3;
-        height: 8px;
+        height: 7px;
         border-radius: 4px;
 
         width: 100%;
@@ -411,5 +412,94 @@ section {
         }
       }
     }
+  }
+  .education {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 30px;
+  }
+  .experience {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 30px;
+  }
+
+  .title {
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #302e4d;
+  }
+
+  .timeline-box {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .timeline {
+    background-color: #fdf9ff;
+    padding: 30px 15px;
+    border: 1px solid #d4d4e3;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+
+    .timeline-item {
+      padding: 37px;
+      position: relative;
+      padding-bottom: 50px;
+      &:last-child {
+        padding-bottom: 0px;
+      }
+
+      &:before {
+        content: '';
+        width: 1px;
+        position: absolute;
+        height: 100%;
+        left: 7px;
+        top: 0;
+        background-color: #ec1839;
+      }
+    }
+  }
+
+  .circle-dot {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #ec1839;
+    left: 0px;
+    border-radius: 50%;
+  }
+  .timeline-date {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -37px;
+    margin-bottom: 12px;
+    color: #504e70;
+
+    .fa {
+      margin-right: 5px;
+    }
+  }
+  .timeline-title {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: #302e4d;
+  }
+  .timeline-text {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 25px;
+    color: #504e70;
+    margin: 0;
   }
 }
