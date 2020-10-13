@@ -15,8 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="css/main.css" type="text/css" />
-    <link rel="stylesheet" href="css/skins/pink.css" type="text/css" />
-</head>
+
 
 <body>
     <!-- Main container -->
@@ -60,7 +59,7 @@
         <!-- Main content start -->
         <div class="main-content">
             <!-- home section start -->
-            <section class="home-section hidden">
+            <section class="home-section  hidden">
                 <div class="container">
                     <div class="intro">
                         <img src="images/title_img.jpg" alt="Profile" class="shadow-dark" />
@@ -88,7 +87,7 @@
             <!-- home section end -->
             <!-- About section start -->
 
-            <section class="about-section hidden">
+            <section class="about-section hidden ">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -468,20 +467,22 @@
                     </div>
                     <!-- buttons -->
                     <div class="row">
-                        <div class="protfolio-filter padd-15">
+                        <div class="portfolio-filter padd-15">
                             <button type="button" class="active" data-filter="all">All</button>
-                            <button type="button" data-filter="web-design">Web Application</button>
-                            <button type="button" data-filter="web-application">E-commerce</button>
-                            <button type="button" data-filter="mobile-app">Mobile Application</button>
-                            <button type="button" data-filter="wordpress">Wordpress</button>
-                            <button type="button" data-filter="desktop-app">Desktop Application</button>
+                            <button type="button" data-filter="web-application">Web Application</button>
+                            <button type="button" data-filter="e-commerce">E-commerce</button>
+                            <button type="button" data-filter="mobile-applications">Mobile Application</button>
+                            <button type="button" data-filter="web-design-wordpress">Wordpress</button>
+                            <button type="button" data-filter="software-development">Software Development</button>
                         </div>
                     </div>
 
 
+
                     <!-- div protfolio -->
-                    <div class="row">
-                        <div class="protfolio-item padd-15" data-catagory="web-application">
+                    <div class="row ">
+                        <!-- portfolio -item -->
+                        <div class="portfolio-item padd-15" data-catagory="web-application">
                             <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
                                     <img src="images/portfolio/1.jpg" alt="">
@@ -494,7 +495,33 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="protfolio-item padd-15" data-catagory="E-commerce">
+                        <div class="portfolio-item padd-15" data-catagory="web-application">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/1.jpg" alt="">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>Web Application</h4>
+                                    <div class="icon">
+                                        <a href="#" target="_blank"><i class="fa fa-search"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15" data-catagory="web-application">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/1.jpg" alt="">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>Web Application</h4>
+                                    <div class="icon">
+                                        <a href="#" target="_blank"><i class="fa fa-search"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15" data-catagory="e-commerce">
                             <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
                                     <img src="images/portfolio/2.jpg" alt="">
@@ -507,7 +534,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="protfolio-item padd-15" data-catagory="Mobile-Applications">
+                        <div class="portfolio-item padd-15" data-catagory="mobile-applications">
                             <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
                                     <img src="images/portfolio/3.jpg" alt="">
@@ -520,7 +547,21 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="protfolio-item padd-15" data-catagory="Web Design wordpress">
+                        <div class="portfolio-item padd-15" data-catagory="mobile-applications">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/3.jpg" alt="">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>Mobile-Applications</h4>
+                                    <div class="icon">
+                                        <a href="#" target="_blank"><i class="fa fa-search"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item padd-15" data-catagory="web-design-wordpress">
                             <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
                                     <img src="images/portfolio/4.jpg" alt="">
@@ -533,10 +574,23 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="protfolio-item padd-15" data-catagory="software Development">
+                        <div class="portfolio-item padd-15" data-catagory="software-development">
                             <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
                                     <img src="images/portfolio/5.jpg" alt="">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>Desktop Applications</h4>
+                                    <div class="icon">
+                                        <a href="#" target="_blank"><i class="fa fa-search"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15" data-catagory="software-development">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/6.jpg" alt="">
                                 </div>
                                 <div class="portfolio-info">
                                     <h4>Desktop Applications</h4>
@@ -570,11 +624,48 @@
 
 
         </div>
-
+        <!-- main content end -->
     </div>
-    <!-- main content end -->
+
 
     <!-- Main container end -->
+    <!-- Lightbox -->
+    <div class="lightbox ">
+        <div class="lightbox-content">
+
+            <div class="lightbox-close">&times; </div>
+
+            <img src="images/portfolio/2.jpg" class="lightbox-img" alt="lightbox-img">
+
+
+            <div class="lightbox-caption">
+
+                <div class="caption-text">Web Design</div>
+                <div class="caption-counter">1 of 6 </div>
+
+
+
+
+
+
+            </div>
+        </div>
+        <!-- <div class="lightbox-controls">
+            <div class="prev-item" onclick="prevItem()"><i class="fa fa-angle-left"></i></div>
+            <div class="next-item" onclick="nextItem()"><i class="fa fa-angle-right"></i></div>
+        </div> -->
+
+
+
+    </div>
+
+
+    <!-- lightbox end -->
+
+
+    <!-- Template Js -->
+    <script src="./js/script.js"></script>
+    <!-- <script src="js/styleSwitcher.js"></script> -->
 </body>
 
 </html>
