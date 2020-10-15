@@ -254,3 +254,52 @@
   font-size: 30px;
   line-height: 40px;
 }
+/* Responsive css */
+@media (max-width: 1199px) {
+  .aside {
+    left: -270px;
+  }
+  .main-content {
+    padding-left: 0;
+  }
+  .about-section .about-content .personal-info .info-item p span {
+    display: block;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .blog-section .blog-item,
+  .portfolio-section .portfolio-item,
+  .service-section .service-item {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-section .contact-form .col-6,
+  .blog-section .blog-item,
+  .service-section .service-item,
+  .about-section .about-content .experience,
+  .about-section .about-content .education,
+  .about-section .about-content .skills,
+  .about-section .about-content .personal-info {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .portfolio-section .portfolio-filter button {
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 575px) {
+  .contact-section .contact-info-item,
+  .portfolio-section .portfolio-item {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
