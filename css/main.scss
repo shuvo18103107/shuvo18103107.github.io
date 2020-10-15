@@ -20,6 +20,11 @@ body {
 ::after {
   box-sizing: border-box;
 }
+input,
+textarea,
+select {
+  font-family: 'Montserrat', sans-serif;
+}
 section {
   background-color: #f2f2fc;
   min-height: 100vh;
@@ -330,6 +335,8 @@ section {
         -webkit-transition: all 0.3s ease;
         transition: all 0.3s ease;
         display: inline-block;
+        border: none;
+        cursor: pointer;
         white-space: nowrap;
         margin-right: 15px;
         margin-top: 10px;
@@ -659,6 +666,107 @@ section {
           color: #ec1839;
         }
       }
+    }
+  }
+}
+// contact section scss
+.contact-section {
+  .contact-info-item {
+    -ms-flex: 0 0 33.33%;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    text-align: center;
+    margin-bottom: 40px;
+    .icon {
+      display: inline-block;
+
+      .fa {
+        font-size: 40px;
+        color: #ec1839;
+      }
+    }
+
+    h4 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #302e4d;
+      text-transform: capitalize;
+      margin: 15px 0 5px;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 25px;
+      color: #504e70;
+      text-decoration: none;
+      margin: 0;
+    }
+  }
+
+  .contact-form {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+
+    .col-6 {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+    .col-12 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .form-item {
+      margin-bottom: 30px;
+      .form-control {
+        width: 100%;
+        height: 50px;
+        border-radius: 25px;
+        border: 1px solid #d4d4e3;
+        padding: 10px 25px;
+        font-size: 16px;
+        color: #504e70;
+        -webkit-transition: all 0.7s ease;
+        transition: all 0.7s ease;
+
+        &:focus {
+          -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+          box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+        }
+      }
+
+      .form-group {
+        textarea {
+          height: 140px;
+        }
+      }
+    }
+
+    .btn {
+      background-color: #ec1839;
+      font-size: 16px;
+      font-family: 'Rubik', sans-serif;
+      font-weight: 500;
+      padding: 12px 35px;
+      color: #ffffff;
+      border-radius: 40px;
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      display: inline-block;
+      border: none;
+      cursor: pointer;
+      white-space: nowrap;
+      margin-right: 15px;
+      margin-top: 10px;
+      &:hover {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+      }
+      height: 50px;
+      padding: 0 50px;
     }
   }
 }
