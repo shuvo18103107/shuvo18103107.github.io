@@ -31,6 +31,30 @@
 
 
 <body>
+    <!-- preloader -->
+    <div class="preloader">
+        <div class="loader">
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- Main container -->
     <div class="main-container">
         <!-- Aside -->
@@ -47,22 +71,22 @@
             <!-- Nav -->
             <ul class="nav">
                 <li>
-                    <a href="#" class="active"><i class="fa fa-home"></i>Home</a>
+                    <a href="#home" class="active"><i class="fa fa-home"></i>Home</a>
                 </li>
                 <li>
-                    <a href="#"><i class="fa fa-user"></i>About</a>
+                    <a href="#about"><i class="fa fa-user"></i>About</a>
                 </li>
                 <li>
-                    <a href="#"><i class="fa fa-list"></i>Services</a>
+                    <a href="#services"><i class="fa fa-list"></i>Services</a>
                 </li>
                 <li>
-                    <a href="#"><i class="fa fa-briefcase"></i>Portfolio</a>
+                    <a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a>
                 </li>
                 <li>
-                    <a href="#"><i class="fa fa-envelope"></i>Blog</a>
+                    <a href="#blog"><i class="fa fa-envelope"></i>Blog</a>
                 </li>
                 <li>
-                    <a href="#"><i class="fa fa-comments"></i>Contact</a>
+                    <a href="#contact"><i class="fa fa-comments"></i>Contact</a>
                 </li>
             </ul>
             <!-- copyright -->
@@ -72,7 +96,7 @@
         <!-- Main content start -->
         <div class="main-content">
             <!-- home section start -->
-            <section class="home-section ">
+            <section class="home-section active " id="home">
                 <div class="container">
                     <div class="intro">
                         <img src="images/title_img.jpg" alt="Profile" class="shadow-dark" />
@@ -100,7 +124,7 @@
             <!-- home section end -->
             <!-- About section start -->
 
-            <section class="about-section ">
+            <section class="about-section " id="about">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -157,7 +181,7 @@
                                     <div class="row">
                                         <div class="buttons padd-15">
                                             <a href="#" class="btn">Download CV</a>
-                                            <a href="#" class="btn">Hire Me</a>
+                                            <a href="#contact" data-section-index="1" class="btn hire-me">Hire Me</a>
                                         </div>
                                     </div>
                                 </div>
@@ -366,7 +390,7 @@
 
 
             <!-- Service Section Start -->
-            <section class="service-section   ">
+            <section class="service-section   " id="services">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -470,7 +494,7 @@
 
 
             <!-- portfolio section start -->
-            <section class="portfolio-section ">
+            <section class="portfolio-section " id="portfolio">
                 <div class="container">
                     <!-- heading -->
                     <div class="row">
@@ -586,7 +610,7 @@
 
             <!-- Blog Section Start -->
 
-            <section class="blog-section section">
+            <section class="blog-section " id="blog">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -658,7 +682,7 @@
 
             <!--  Contact Section Start -->
 
-            <section class="contact-section section">
+            <section class="contact-section " id="contact">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
