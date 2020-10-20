@@ -210,11 +210,20 @@ section .container {
   left: 0;
   top: 0;
   overflow-y: auto;
-  z-index: 10;
+  z-index: 11;
   border-right: 1px solid #e8dfec;
-  padding: 30px;
+
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+.aside .aside-inner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  overflow-y: auto;
 }
 
 .aside .logo {
@@ -682,6 +691,7 @@ section .container {
   text-align: center;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  width: 100%;
 }
 
 .service-item-inner:hover {
